@@ -1,0 +1,13 @@
+prefix=/Users/rajtejaswee/Machine-Learning-Course/venv
+exec_prefix=/Users/rajtejaswee/Machine-Learning-Course/venv
+libdir=/Users/rajtejaswee/Machine-Learning-Course/venv/lib
+sharedlibdir=/Users/rajtejaswee/Machine-Learning-Course/venv/lib
+includedir=/Users/rajtejaswee/Machine-Learning-Course/venv/include
+
+Name: zlib
+Description: zlib compression library
+Version: 1.2.13
+
+Requires:
+Libs: -L${libdir} -L${sharedlibdir} -lz
+Cflags: -I${includedir}
